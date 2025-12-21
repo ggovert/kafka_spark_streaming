@@ -1,0 +1,12 @@
+{"user_id": "U001", "amount": 250000, "timestamp": "2025-12-14T09:08:00Z", "source": "mobile"}
+{"user_id": "U002", "amount": 5000000, "timestamp": "2025-12-14T09:08:30Z", "source": "web"}
+{"user_id": "U004", "amount": -5000, "timestamp": "2025-12-14T09:09:10Z", "source": "mobile"}
+{"user_id": "U005", "amount": 100000, "timestamp": "2025-12-14T09:09:15Z", "source": "smart_watch"}
+{"user_id": "U006", "amount": 99000000, "timestamp": "2025-12-14T09:09:20Z", "source": "web"}
+{"user_id": "U12345", "amount": 150000, "timestamp": "2025-12-14T09:00:20Z", "source": "mobile"}
+{"user_id": "U12345", "amount": 150000, "timestamp": "2025-12-14T09:00:20Z", "source": "mobile"}
+{"user_id": "U007", "amount": 200000, "timestamp": "2025-12-14T09:07:30Z", "source": "mobile"}
+{"user_id": "U008", "amount": 300000, "timestamp": "2025-12-14T09:03:00Z", "source": "web"}
+
+
+
