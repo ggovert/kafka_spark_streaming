@@ -65,6 +65,41 @@ services:
     networks:
       - kafka-network
 
+  # ------------ Not using this for now ------------
+  # # --- SPARK MASTER ---
+  # spark-master:
+  #   image: apache/spark:3.5.3
+  #   container_name: spark-master-assignment-2
+  #   environment:
+  #     - SPARK_MODE=master
+  #   command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+  #   ports:
+  #     - "8081:8080" # Spark Master Web UI
+  #     - "7077:7077"
+  #   volumes:
+  #     - .:/app # Mirror folder project ke container
+  #   working_dir: /app
+  #   networks:
+  #     - kafka-network
+
+  # # --- SPARK WORKER ---
+  # spark-worker:
+  #   image: apache/spark:3.5.3
+  #   container_name: spark-worker-assignment-2
+  #   depends_on:
+  #     - spark-master
+  #   command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+  #   ports:
+  #     - "8082:8081"
+  #   environment:
+  #     - SPARK_MODE=worker
+  #     - SPARK_MASTER_URL=spark://spark-master:7077
+  #   volumes:
+  #     - .:/app
+  #   working_dir: /app
+  #   networks:
+  #     - kafka-network
+
 # -------------------
 # Volumes
 # -------------------

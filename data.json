@@ -6,7 +6,6 @@
 {"user_id": "U12345", "amount": 150000, "timestamp": "2025-12-14T09:00:20Z", "source": "mobile"}
 {"user_id": "U12345", "amount": 150000, "timestamp": "2025-12-14T09:00:20Z", "source": "mobile"}
 {"user_id": "U007", "amount": 200000, "timestamp": "2025-12-14T09:07:30Z", "source": "mobile"}
-{"user_id": "U008", "amount": 300000, "timestamp": "2025-12-14T09:03:00Z", "source": "web"}
-
+{"user_id": "U0011", "amount": 300000, "timestamp": "invalid-date", "source": "web"}
 
 
