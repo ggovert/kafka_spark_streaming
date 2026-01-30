@@ -6,7 +6,7 @@ from confluent_kafka import Producer
 
 # Konfigurasi Confluent Kafka
 conf = {
-    'bootstrap.servers': 'localhost:9092', # Sesuaikan dengan port Kafka kamu
+    'bootstrap.servers': 'localhost:9092', 
     'client.id': 'transaction-producer'
 }
 

@@ -1,0 +1,7 @@
+1. Jelaskan bagaimana pengalaman Anda dalam membangun alur streaming dari event producer hingga proses validasi dan routing data menggunakan Spark Structured Streaming. Bagian mana yang paling membantu Anda memahami cara kerja real-time data pipeline?
+2. Apa tantangan utama yang Anda hadapi ketika menerapkan validasi data, watermark, atau tumbling window, dan bagaimana pengalaman tersebut memperkuat pemahaman Anda mengenai pemrosesan data secara real time?
+
+
+Answer:
+1. Cukup rumit, karena sudah cek sana sini, tetap watermark tidak berjalan seperti apa yang dimau. Tetap masuk ke valid, walau sudah di filter. Tidak mengerti kenapa bisa begini. Sudah di otak-atik juga tetap sama
+2. Tantangan utama adalah watermark, mungkin karena setekah watermahk ada drop duplicates, makanya tidak mau jalan. Sudah cek internet juga tidak ketemu jawaban
